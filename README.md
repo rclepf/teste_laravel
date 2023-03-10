@@ -75,19 +75,11 @@ php artisan migrate
 ```
 npm install && npm run dev
 ```
-7. Crie o modelo de tarefa:
-```
-php artisan make:model Task -a
-```
-8. Rode as migrations novamente para criar a tabela de tarefas:
-```
-php artisan migrate
-```
-9. Popule o banco de dados com algumas tarefas de exemplo:
+7. Popule o banco de dados com algumas tarefas de exemplo:
 ```
 php artisan db:seed
 ```
-10. Finalmente, inicie o servidor embutido do PHP:
+8. Finalmente, inicie o servidor embutido do PHP:
 ```
 php artisan serve
 ```
